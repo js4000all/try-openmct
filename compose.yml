@@ -1,0 +1,6 @@
+services:
+  mct:
+    build:
+      context: .
+    ports:
+      - "28082:8080"
